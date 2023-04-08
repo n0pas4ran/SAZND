@@ -33,7 +33,7 @@ editor: visual
 
 1.  Сбор трафика
 
-![](images/image-150035345.png)
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/87472380/230713778-8b37c3e4-9ef1-4b69-8b2c-d23e70744ab1.png">
 
 2.  Выделение метаданных с помощью утилиты zeek
 
@@ -44,8 +44,7 @@ editor: visual
 ```
 
 В результате метаданные будут сохранены в файл /opt/zeek/bin/dns.log
-
-![](images/image-1903376626.png)
+<img width="964" alt="image" src="https://user-images.githubusercontent.com/87472380/230713713-f6abd075-f311-4b99-a92e-9ea874cb48c3.png">
 
 3.  Напишем программу на языке python для анализа логов на нежелательный трафик, в качестве побочного средства будем использовать файл hosts.txt (https://github.com/StevenBlack/hosts/blob/master/data/add.2o7Net/hosts), содержащий список нежелательных доменных имен
 
@@ -77,8 +76,8 @@ print(str(round(countBad * 100/ (count-7), 2)) + '%')
 ```
 
 4.  В результате получаем: 18.2% от всего трафика является нежелательным
+<img width="223" alt="image" src="https://user-images.githubusercontent.com/87472380/230713684-57947aaa-ee5c-4c71-8338-f0e6361a3e95.png">
 
-![](images/image-433050042.png)
 
 ## Оценка результатов
 
